@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+
+  <title>Nuestro Legado Entretejido - The Independent Florida Alligator</title>
+  <meta property="og:image" content="images/wrap.jpg" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/styles.css" rel="stylesheet">
+
+  <script src="scripts/language-utils.js"></script>
+</head>
+
+<body class="text-center h-100">
+
+  <div class="container d-flex w-100 h-100 p-3 mx-auto flex-column justify-content-between" style="max-width: 100rem;">
+
+    <div class="language-toggle">
+      <button id="langToggle" onclick="toggleLanguage()">EN</button>
+  </div>
+
+    <main class="container px-3 m-auto d-flex flex-column flex-lg-row align-items-center justify-content-between" role="main">
+      <img src="images/wrap_subject.png" id="dressImage" class="pb-3 p-lg-3" height="650px" width="800px" alt="Graphic of a woman with a dress composed of various culture elements and societal issues">
+
+      <div id="aboutContainer" class="d-flex flex-column p-lg-2">
+          <img src="images/wrap_title.png" id="legadoBodyLogo" class="pb-1" alt="Banner for the special edition, with the Nuestro Legado Entretejido title">
+
+          <p id="lead" class="lang-en">This special edition features 18 stories in English and Spanish, intertwining the patchwork of experiences among the Hispanic community at Gainesville and UF.</p>
+          <p id="lead" class="lang-es" style="display: none;">Esta edición especial contiene 18 historias en inglés y español, entretejiendo el mosaico de experiencias en la comunidad hispana de Gainesville y la UF.</p>
+
+          <div id="bodyNavButts" class="d-flex flex-row align-items-center justify-content-center w-100">
+              <a href="#" class="btn btn-lg btn-light border-dark bg-dark m-1 p-3 text-nowrap w-50" data-bs-toggle="modal"
+                data-bs-target="#noteModal">
+                <span class="lang-en">Editors' Note</span>
+                <span class="lang-es" style="display: none;">Nota del Editor</span>
+              </a>
+              <a href="sports.html" id="start-button" class="btn btn-lg btn-info m-1 p-3 text-nowrap text-bg-light fw-b w-50 border border-dark">
+                  <span class="lang-en">Start Reading</span>
+                  <span class="lang-es" style="display: none;">Comenzar a Leer</span>
+              </a>
+          </div>
+      </div>
+    </main>
+
+    <footer class="w-100">
+      <div class="social-media">
+        <a href="https://www.facebook.com/floridaalligator/"><i class="fa fa-facebook mx-2"></i></a>
+        <a href="https://twitter.com/thealligator"><i class="fa fa-twitter mx-2"></i></a>
+        <a href="https://www.instagram.com/thealligator_/?hl=en"><i class="fa fa-instagram mx-2"></i></a>
+        <a href="https://www.linkedin.com/company/ifl-alligator/mycompany/"><i class="fa fa-linkedin mx-2"></i></a>
+      </div>
+      <p>&copy; The Independent Florida Alligator</p>
+    </footer>
+  </div>
+
+  <div id="noteModal" class="modal fade" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header flex-column align-items-center p-4">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="px-4">
+
+            <h1 id="articleTitle" class="fs-2">
+              <span class="lang-en">Our interwoven legacy</span>
+              <span class="lang-es" style="display: none;">Nuestro legado entretejido</span>
+            </h1>
+
+            <div>By <span id="articleAuthor">
+              <span class="lang-en">Alligator Editorial Board</span>
+              <span class="lang-es" style="display: none;">Consejo Editorial del Alligator</span>
+            </span></div>
+
+          </div>
+        </div>
+        <div class="modal-body d-flex flex-column px-5 py-4 row-gap-4 border-bottom">
+          <div id="articleBody" class="text-start">
+            <span class="lang-en">
+              <p>Like an intricately woven quilt, the key to any community is honoring and highlighting the shared experiences that bind us together despite our differences in background. The Alligator always seeks to create equitable, accessible coverage of the UF and Gainesville communities, stitching together well-loved and worn traditions with the issues facing us today.</p><p>Approximately 12% of the Gainesville population and 21% of UF’s student population identify as Hispanic or Latino, reflective of the nationwide 19%. Despite the prevalence of these communities, the newsroom often leaves rich, engaging stories untold.</p><p>This edition features 18 stories in English and Spanish, from a profile of Gainesville’s beloved La Cocina de Abuela to a look at how Alachua County Public Schools hopes to solve its ELA proficiency gap between white and Hispanic students. Our primary goal was to highlight and amplify the voices of UF and Gainesville’s Spanish-speaking community in an accessible format.</p><p>While the breadth of experiences facing the Spanish-speaking community could not nearly be captured in a single edition, increasing the accessibility and equity of our coverage is a goal the Alligator strives to improve with each story told. </p><p>While this edition highlights Gainesville’s Spanish-speaking community, you can read El Caimán, the Alligator’s permanent Spanish section in all weekly editions.</p>
+            </span>
+            <span class="lang-es" style="display: none;">
+              <p>Como una colcha tejida intrincadamente, la clave para cualquier comunidad es honrar y destacar las experiencias compartidas que nos unen a pesar de nuestros orígenes diferentes. El Alligator siempre busca crear cobertura equitativa y accesible de la comunidad de Gainesville y la UF, conectando las tradiciones existentes con los problemas a los que nos enfrentamos hoy.</p><p>Aproximadamente el 12% de la población de Gainesville y el 21% de la población estudiantil de la UF se identifican como hispanos o latinos, reflejando el 19% de toda la nación. A pesar de la prevalencia de estas comunidades, los medios de comunicación tienden a omitir historias enriquecedoras e interesantes.</p><p>Esta edición presenta 18 historias en inglés y español, desde un pérfil sobre la amada Cocina de Abuela de Gainesvillle a un análisis sobre como las Escuelas Públicas del Condado de Alachua buscan resolver la brecha en el rendimiento de los alumnos hispanos en lenguaje y literatura. Nuestra meta principal fue destacar y amplificar las voces de la comunidad hispanohablante de Gainesville y la UF en un formato accesible.</p><p>Aunque la amplitud de experiencias que la comunidad hispanohablante confronta no podría ser capturada en una sola edición, incrementar la accesibilidad y equidad de nuestra cobertura es un objetivo que el Alligator busca mejorar con cada historia nueva.</p><p>Aunque esta edición destaca la comunidad hispanohablante de Gainesville, siempre puedes leer El Caimán, la sección permanente en español del Alligator en todas las ediciones semanales.</p>
+            </span>
+
+          </div>
+        </div>
+        <div class="px-5 py-4">
+          <p id="articleAbout"><i>
+            <span class="lang-en">The Editorial Board consists of Editor-in-Chief Aidan Bush, Engagement Managing Editor Valentina Sandoval, Digital Managing Editor Diego Perdomo and Senior News Director Peyton Harris.</span>
+            <span class="lang-es" style="display: none;">El Consejo Editorial consiste del editor en jefe Aidan Bush, la gerente editorial de participación Valentina Sandoval, el gerente editorial digital Diego Perdomo y la directora de noticias Peyton Harris.</span>
+            
+          </i>
+          <p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
